@@ -1,0 +1,32 @@
+{
+    "type": "Ext.app.Application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "authToken": [
+            "{}"
+        ],
+        "views": [
+            "myContainer",
+            "authContainer",
+            "mainCarousel",
+            "timeSlider",
+            "MyFormPanel"
+        ],
+        "name": "Confluent"
+    },
+    "configAlternates": {
+        "authToken": "object"
+    },
+    "designerId": "application",
+    "customConfigs": [
+        {
+            "group": "(Custom Properties)",
+            "name": "authToken",
+            "type": "string"
+        }
+    ]
+}

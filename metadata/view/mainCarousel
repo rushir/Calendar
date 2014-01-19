@@ -1,0 +1,30 @@
+{
+    "type": "Ext.carousel.Carousel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "fullscreen": true,
+        "id": null,
+        "itemId": "mainCarousel",
+        "showAnimation": [
+            "{\r",
+            "    type: 'fadeIn',\r",
+            "    duration: 750\r",
+            "}"
+        ],
+        "ui": "light",
+        "designer|userClassName": "mainCarousel",
+        "designer|userAlias": "mainCarousel",
+        "requires": [
+            "Confluent.view.myContainer"
+        ],
+        "direction": "vertical"
+    },
+    "configAlternates": {
+        "showAnimation": "object"
+    },
+    "designerId": "c181fb82-1cf4-40c3-bbba-b48fa1fceb9d"
+}
